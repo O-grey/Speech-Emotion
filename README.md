@@ -43,23 +43,26 @@ Feature Extraction using:
 
 40 MFCCs
 
-125 Mel-Spectrogram bins
+128 Mel-Spectrogram bins
 
 Zero Crossing Rate
 
 Spectral Bandwidth
 
-10 Chroma features
+Spectral Centroid
+
+Amplitude Envelope
+
+Root Mean Square Energy
 
 Model Training:
 
-Final model: Deep Neural Network with 179 input features
+Final model: Deep Neural Network with 175-180 input features
 
 Deployment:
 
 Real-time inference using a Streamlit-based frontend
 
 📈 Model Results
-Model Version	Accuracy	F1-Score
-ANN (after removing Surprised)	~82%	~81%
-Final ANN Model	82%	81%
+Best Model Version	Accuracy	F1-Score was
+ANN Model with	82%	81% respectively
